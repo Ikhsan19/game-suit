@@ -42,8 +42,6 @@ while (tanya) {
         hasil = (comp == 'Batu') ? 'MENANG' : 'KALAH';
     } else {
         hasil = ('salah memasukkan pilihan!');
-        // tanya = confirm('Ingin bermain lagi?');
-
     }
     alert('Anda memilih : ' + p + '\nKomputer memilih : ' + comp + '\nMaka hasilnya : Anda ' + hasil);
     tanya = confirm('Ingin bermain lagi?');
